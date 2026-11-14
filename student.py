@@ -11,14 +11,7 @@ sub2 = input("enter marks of sub 2 :")
 sub3 = input("enter marks of sub 3 :")
 
 total_marks = int(sub1) + int(sub2) + int(sub3)
-avg = total_marks/3
-
-if int(sub1) >= 40 and int(sub2) >= 40 and int(sub3) >= 40:
-    result = "pass"
-else:
-    result = "fail"
 
 print ("Student Name:", name)
 print ("Total Marks:", total_marks)     
-print ("Average Marks:", avg)
-print ("Result:", result)   
+  
